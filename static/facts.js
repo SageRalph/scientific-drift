@@ -8,10 +8,16 @@ const facts = [
       "Many bacteria are beneficial and essential for health, such as those in the human gut microbiome",
   },
   {
-    year: 1980,
-    field: "Physics",
-    old_teaching: "Time was generally taught as being absolute",
-    new_discovery: "Relativistic time dilation is now routinely taught",
+    year: 1965,
+    field: "Chemistry",
+    old_teaching: "It was taught that all acids and bases are dangerous and harmful to touch.",
+    new_discovery: "Some acids and bases are safe and even essential in food and the body, such as citric acid and bicarbonate",
+  },
+  {
+    year: 1970,
+    field: "Mathematics",
+    old_teaching: "It was believed that computers could not solve complex mathematical problems.",
+    new_discovery: "Computers can solve many complex problems, including calculus and algebra, with the help of algorithms",
   },
   {
     year: 1975,
@@ -21,11 +27,23 @@ const facts = [
       "Viruses are not considered truly alive, as they require host cells to reproduce",
   },
   {
+    year: 1980,
+    field: "Physics",
+    old_teaching: "Time was generally taught as being absolute",
+    new_discovery: "Relativistic time dilation is now routinely taught",
+  },
+  {
     year: 1985,
     field: "Physics",
     old_teaching: "Atoms were taught as indivisible units of matter",
     new_discovery:
       "Atoms are made of subatomic particles: protons, neutrons, and electrons, and can be split in nuclear reactions",
+  },
+  {
+    year: 1988,
+    field: "Geography",
+    old_teaching: "It was taught that the ozone layer was stable and not affected by human activity.",
+    new_discovery: "Human-made chemicals like CFCs caused ozone depletion, leading to international action and recovery",
   },
   {
     year: 1990,
@@ -40,6 +58,12 @@ const facts = [
     field: "Physics",
     old_teaching: "It was thought that planets only exist in our solar system",
     new_discovery: "Exoplanets were discovered around other stars",
+  },
+  {
+    year: 1997,
+    field: "History",
+    old_teaching: "It was believed that the internet was a niche technology for scientists and the military.",
+    new_discovery: "The internet is a global network essential for communication, education, and commerce",
   },
   {
     year: 2000,
@@ -81,6 +105,12 @@ const facts = [
     field: "Physics",
     old_teaching: "Pluto was taught to be a planet",
     new_discovery: "The IAU reclassified Pluto as a dwarf planet",
+  },
+  {
+    year: 2008,
+    field: "Mathematics",
+    old_teaching: "It was taught that prime numbers have no practical use outside of pure mathematics.",
+    new_discovery: "Prime numbers are essential for cryptography and internet security",
   },
   {
     year: 2010,
