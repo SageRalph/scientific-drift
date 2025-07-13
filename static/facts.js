@@ -338,6 +338,14 @@ const facts = [
     new_discovery: "The first cloned macaque twins were created",
   },
   {
+    year: 2018,
+    field: "Biology",
+    old_teaching:
+      "It was believed that plastic pollution was only a problem in oceans",
+    new_discovery:
+      "Microplastics were found in rainwater, soil, and human bodies worldwide",
+  },
+  {
     year: 2019,
     field: "Physics",
     old_teaching: "Black holes had never been seen directly",
@@ -349,6 +357,14 @@ const facts = [
     field: "Physics",
     old_teaching: "It was believed there was no water on Mars",
     new_discovery: "Layered ice-sand water deposits were found on Mars",
+  },
+  {
+    year: 2019,
+    field: "Biology",
+    old_teaching:
+      "It was believed that pandemics were rare and unlikely in the modern era",
+    new_discovery:
+      "COVID-19 pandemic showed global vulnerability to infectious diseases",
   },
   {
     year: 2020,
@@ -423,5 +439,12 @@ const facts = [
     field: "Physics",
     old_teaching: "It was believed there was no gravitational wave background",
     new_discovery: "A stochastic gravitational-wave background was detected",
+  },
+  {
+    year: 2023,
+    field: "Physics",
+    old_teaching: "It was thought that fusion energy was always decades away",
+    new_discovery:
+      "Net energy gain from fusion was achieved in laboratory settings",
   },
 ];
