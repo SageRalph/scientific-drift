@@ -3,6 +3,17 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f4f4f9;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  padding: 0.5rem;
+  z-index: 1;
 }
 
 .timeline-container {
@@ -33,7 +44,7 @@ body {
 }
 
 .timeline-item::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: 0;
