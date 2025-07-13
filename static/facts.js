@@ -2,7 +2,7 @@ const facts = [
   {
     year: 1953,
     field: "Biology",
-    old_teaching: "It was taught that DNA's structure was unknown",
+    old_teaching: "DNA's structure was unknown",
     new_discovery:
       "Double helix structure of DNA was discovered by Watson and Crick",
   },
@@ -13,6 +13,13 @@ const facts = [
       "It was taught that all bacteria are harmful and cause disease",
     new_discovery:
       "Many bacteria are beneficial and essential for health, such as those in the human gut microbiome",
+  },
+  {
+    year: 1962,
+    field: "Geography",
+    old_teaching:
+      "It was believed that continental drift was just a hypothesis",
+    new_discovery: "Seafloor spreading provided evidence for plate tectonics",
   },
   {
     year: 1964,
@@ -36,6 +43,12 @@ const facts = [
       "It was believed that computers could not solve complex mathematical problems.",
     new_discovery:
       "Computers can solve many complex problems, including calculus and algebra, with the help of algorithms",
+  },
+  {
+    year: 1971,
+    field: "Physics",
+    old_teaching: "Only visible light was used for astronomy",
+    new_discovery: "X-ray telescopes revealed new cosmic phenomena",
   },
   {
     year: 1972,
@@ -65,6 +78,12 @@ const facts = [
     field: "Physics",
     old_teaching: "Time was generally taught as being absolute",
     new_discovery: "Relativistic time dilation is now routinely taught",
+  },
+  {
+    year: 1981,
+    field: "Biology",
+    old_teaching: "It was believed that all enzymes were proteins",
+    new_discovery: "Discovery of ribozymes showed RNA can act as enzymes",
   },
   {
     year: 1983,
@@ -119,6 +138,12 @@ const facts = [
     new_discovery: "Exoplanets were discovered around other stars",
   },
   {
+    year: 1994,
+    field: "Physics",
+    old_teaching: "It was taught that neutrinos have no mass",
+    new_discovery: "Neutrino oscillations proved neutrinos have mass",
+  },
+  {
     year: 1995,
     field: "Physics",
     old_teaching:
@@ -148,6 +173,13 @@ const facts = [
     old_teaching: "The expansion of the universe was uncertain",
     new_discovery:
       "Dark energy was discovered, and the accelerated expansion model was accepted",
+  },
+  {
+    year: 2002,
+    field: "Biology",
+    old_teaching:
+      "It was believed that plants only communicate through chemicals",
+    new_discovery: "Plants use electrical signals to communicate internally",
   },
   {
     year: 2003,
@@ -196,6 +228,12 @@ const facts = [
     old_teaching: "Most DNA was considered 'junk'",
     new_discovery:
       "The ENCODE project showed that DNA has broad regulatory roles",
+  },
+  {
+    year: 2010,
+    field: "Physics",
+    old_teaching: "It was taught that antimatter was only theoretical",
+    new_discovery: "Antimatter was trapped and studied at CERN",
   },
   {
     year: 2010,
@@ -361,5 +399,13 @@ const facts = [
     field: "Physics",
     old_teaching: "It was believed there was no gravitational wave background",
     new_discovery: "A stochastic gravitational-wave background was detected",
+  },
+  {
+    year: 2024,
+    field: "Chemistry",
+    old_teaching:
+      "It was believed that only carbon-based molecules could form complex structures",
+    new_discovery:
+      "Silicon-based nanostructures were engineered for electronics",
   },
 ];
