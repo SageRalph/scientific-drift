@@ -143,13 +143,11 @@ footer {
 @media (max-width: 900px) {
   .timeline {
     width: 100%;
-    padding: 6px 0;
+    padding: 24px 0;
   }
   .timeline-item {
     width: 100%;
-    padding: 24px 0 0 0;
-    margin-bottom: 24px;
-    border-radius: 10px;
+    margin: 48px 0;
   }
   .timeline-teachings-row {
     gap: 10px;
@@ -173,7 +171,6 @@ footer {
 @media (max-width: 600px) {
   .timeline-year-heading {
     font-size: 1.1rem;
-    margin-bottom: 4px;
   }
   .timeline-field-heading {
     font-size: 0.95rem;
