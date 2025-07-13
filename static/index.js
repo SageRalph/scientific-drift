@@ -189,28 +189,51 @@ const facts = [
   },
 ];
 
-// Populate timeline
+// Group facts by year and field
 const timeline = document.getElementById("timeline");
-facts.forEach((fact) => {
+const factsByYearField = {};
+facts.forEach(fact => {
+  if (!factsByYearField[fact.year]) factsByYearField[fact.year] = {};
+  if (!factsByYearField[fact.year][fact.field]) factsByYearField[fact.year][fact.field] = [];
+  factsByYearField[fact.year][fact.field].push(fact);
+});
+
+Object.entries(factsByYearField).forEach(([year, fieldsObj]) => {
   const item = document.createElement("div");
   item.className = "timeline-item";
-  item.id = `year-${fact.year}`;
+  item.id = `year-${year}`;
 
-  const year = document.createElement("div");
-  year.className = "timeline-year";
-  year.textContent = fact.year;
+  // Year heading (centered)
+  const yearHeading = document.createElement("h2");
+  yearHeading.className = "timeline-year-heading";
+  yearHeading.textContent = year;
+  item.appendChild(yearHeading);
 
-  const oldTeaching = document.createElement("div");
-  oldTeaching.className = "timeline-content left";
-  oldTeaching.textContent = fact.old_teaching;
+  // For each field in this year
+  Object.entries(fieldsObj).forEach(([field, factsArr]) => {
+    // Field subheading
+    const fieldHeading = document.createElement("h3");
+    fieldHeading.className = "timeline-field-heading";
+    fieldHeading.textContent = field;
+    item.appendChild(fieldHeading);
 
-  const newDiscovery = document.createElement("div");
-  newDiscovery.className = "timeline-content right";
-  newDiscovery.textContent = fact.new_discovery;
+    factsArr.forEach(fact => {
+      const teachingsRow = document.createElement("div");
+      teachingsRow.className = "timeline-teachings-row";
 
-  item.appendChild(year);
-  item.appendChild(oldTeaching);
-  item.appendChild(newDiscovery);
+      const oldTeaching = document.createElement("div");
+      oldTeaching.className = "timeline-content left";
+      oldTeaching.textContent = fact.old_teaching;
+
+      const newDiscovery = document.createElement("div");
+      newDiscovery.className = "timeline-content right";
+      newDiscovery.textContent = fact.new_discovery;
+
+      teachingsRow.appendChild(oldTeaching);
+      teachingsRow.appendChild(newDiscovery);
+      item.appendChild(teachingsRow);
+    });
+  });
   timeline.appendChild(item);
 });
 
