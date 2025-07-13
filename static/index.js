@@ -49,8 +49,21 @@ Object.entries(factsByYearField).forEach(([year, fieldsObj]) => {
 
 // Scroll to year
 document.getElementById("inputYear").addEventListener("change", () => {
-  const year = parseInt(document.getElementById("inputYear").value);
-  const target = document.getElementById(`year-${year}`);
+  const inputYear = parseInt(document.getElementById("inputYear").value);
+  // Get all available years from the timeline
+  const yearElements = Array.from(document.querySelectorAll(".timeline-item"));
+  const years = yearElements.map(el => parseInt(el.id.replace("year-", ""))).filter(y => !isNaN(y));
+  // Find the nearest year
+  let nearestYear = years[0];
+  let minDiff = Math.abs(inputYear - nearestYear);
+  years.forEach(y => {
+    const diff = Math.abs(inputYear - y);
+    if (diff < minDiff) {
+      minDiff = diff;
+      nearestYear = y;
+    }
+  });
+  const target = document.getElementById(`year-${nearestYear}`);
   if (target) {
     target.scrollIntoView({ behavior: "smooth", block: "center" });
   }
