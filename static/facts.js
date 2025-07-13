@@ -1,0 +1,205 @@
+const facts = [
+  {
+    year: 2000,
+    field: "Geology",
+    old_teaching:
+      "It was taught that continents were static or only slowly drifting",
+    new_discovery:
+      "It was discovered that tectonic plates are shifting, confirmed by GPS and seafloor spreading",
+  },
+  {
+    year: 2001,
+    field: "Astronomy",
+    old_teaching: "The expansion of the universe was uncertain",
+    new_discovery:
+      "Dark energy was discovered, and the accelerated expansion model was accepted",
+  },
+  {
+    year: 2003,
+    field: "Genetics",
+    old_teaching: "It was believed that humans share 99.9% genetic identity",
+    new_discovery:
+      "The Human Genome Project revealed significant structural and epigenetic variation among individuals",
+  },
+  {
+    year: 2003,
+    field: "Mathematics",
+    old_teaching: "The Poincaré Conjecture was considered unsolved",
+    new_discovery: "Perelman’s proof of the Poincaré Conjecture was accepted",
+  },
+  {
+    year: 2004,
+    field: "Physics",
+    old_teaching:
+      "It was thought that there were no new two-dimensional materials",
+    new_discovery: "Graphene was isolated, revolutionizing materials science",
+  },
+  {
+    year: 2006,
+    field: "Astronomy",
+    old_teaching: "Pluto was taught to be a planet",
+    new_discovery: "The IAU reclassified Pluto as a dwarf planet",
+  },
+  {
+    year: 2010,
+    field: "Biology",
+    old_teaching: "Most DNA was considered 'junk'",
+    new_discovery:
+      "The ENCODE project showed that DNA has broad regulatory roles",
+  },
+  {
+    year: 2010,
+    field: "Synthetic Biology",
+    old_teaching: "It was believed that life could only arise naturally",
+    new_discovery: "The first synthetic cell was built with a synthetic genome",
+  },
+  {
+    year: 2012,
+    field: "Particle Physics",
+    old_teaching: "The Higgs boson was considered hypothetical",
+    new_discovery: "The Higgs boson was discovered at the LHC",
+  },
+  {
+    year: 2012,
+    field: "Genetics",
+    old_teaching: "Precise gene editing was considered limited",
+    new_discovery: "CRISPR-Cas9 revolutionized gene editing",
+  },
+  {
+    year: 2014,
+    field: "Paleontology",
+    old_teaching: "Dinosaurs were thought to be cold-blooded and scaly",
+    new_discovery: "Feathered, warm-blooded polar dinosaurs were found",
+  },
+  {
+    year: 2015,
+    field: "Paleontology",
+    old_teaching: "It was believed that dinosaurs only migrated",
+    new_discovery:
+      "Evidence of year-round reproduction in the Arctic was found",
+  },
+  {
+    year: 2016,
+    field: "Physics",
+    old_teaching: "Gravitational waves had never been observed",
+    new_discovery: "LIGO detected gravitational waves for the first time",
+  },
+  {
+    year: 2017,
+    field: "Archaeology",
+    old_teaching: "It was believed the Great Pyramid was fully mapped",
+    new_discovery:
+      "A muon scan revealed an unknown internal chamber in the Great Pyramid",
+  },
+  {
+    year: 2017,
+    field: "Geology",
+    old_teaching: "It was taught that there are only seven continents",
+    new_discovery: "Zealandia was identified as a hidden continent",
+  },
+  {
+    year: 2018,
+    field: "Paleontology",
+    old_teaching: "It was believed that all dinosaur eggs were hard-shelled",
+    new_discovery: "Soft-shelled dinosaur eggs were discovered",
+  },
+  {
+    year: 2018,
+    field: "Genetics",
+    old_teaching: "It was thought that primates could not be cloned",
+    new_discovery: "The first cloned macaque twins were created",
+  },
+  {
+    year: 2019,
+    field: "Astronomy",
+    old_teaching: "Black holes had never been seen directly",
+    new_discovery:
+      "The Event Horizon Telescope imaged a black hole for the first time",
+  },
+  {
+    year: 2019,
+    field: "Mars Science",
+    old_teaching: "It was believed there was no water on Mars",
+    new_discovery: "Layered ice-sand water deposits were found on Mars",
+  },
+  {
+    year: 2020,
+    field: "Physics",
+    old_teaching: "The kilogram was defined by a physical artifact",
+    new_discovery:
+      "The SI system redefined the kilogram using Planck’s constant",
+  },
+  {
+    year: 2020,
+    field: "Biology",
+    old_teaching: "It was taught that each gene produced a single protein",
+    new_discovery:
+      "Alternative splicing and regulatory RNAs were recognized as important",
+  },
+  {
+    year: 2020,
+    field: "Geology",
+    old_teaching:
+      "It was believed there were no rainforests in ancient Antarctica",
+    new_discovery:
+      "Fossil roots showed the existence of ancient polar rainforests in Antarctica",
+  },
+  {
+    year: 2021,
+    field: "Zoology",
+    old_teaching: "Octopuses were considered simple creatures",
+    new_discovery: "Complex distributed intelligence in octopuses was shown",
+  },
+  {
+    year: 2022,
+    field: "Archaeology",
+    old_teaching: "It was believed that Stonehenge’s stones came from Wales",
+    new_discovery: "The Altar Stone was traced to Scotland",
+  },
+  {
+    year: 2022,
+    field: "Genetics",
+    old_teaching: "It was taught that the human genome was mostly complete",
+    new_discovery:
+      "The full 3.1 billion base-pair reference genome was reached",
+  },
+  {
+    year: 2023,
+    field: "Chemistry",
+    old_teaching: "Bredt’s Rule was considered inviolable",
+    new_discovery:
+      "Exceptions to Bredt’s Rule were found, and the rule was revised",
+  },
+  {
+    year: 2023,
+    field: "Climate Science",
+    old_teaching: "The impact of humans on climate was debated",
+    new_discovery:
+      "Consensus on fossil fuel-driven climate change was confirmed",
+  },
+  {
+    year: 2023,
+    field: "Physics",
+    old_teaching: "Time was considered absolute",
+    new_discovery: "Relativistic time dilation is now routinely measured",
+  },
+  {
+    year: 2023,
+    field: "Physics",
+    old_teaching: "It was believed the Milky Way was calm and uneventful",
+    new_discovery: "Gaia showed the Milky Way’s galaxy merger history",
+  },
+  {
+    year: 2023,
+    field: "Physics",
+    old_teaching: "It was thought that neutrino imaging was impossible",
+    new_discovery:
+      "The first neutrino-based image of the Milky Way was produced",
+  },
+  {
+    year: 2023,
+    field: "Particle Physics",
+    old_teaching: "It was believed there was no gravitational wave background",
+    new_discovery: "A stochastic gravitational-wave background was detected",
+  },
+];
