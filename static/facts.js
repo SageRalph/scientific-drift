@@ -479,4 +479,42 @@ const facts = [
     new_discovery:
       "Net energy gain from fusion was achieved in laboratory settings",
   },
+  {
+    year: 2023,
+    field: "Biology",
+    old_teaching:
+      "It was widely believed that all processed foods are unhealthy",
+    new_discovery:
+      "Some processed foods, such as frozen vegetables, retain nutrients and can be healthy",
+  },
+  {
+    year: 2024,
+    field: "Biology",
+    old_teaching:
+      "It was suggested that artificial sweeteners may be dangerous",
+    new_discovery:
+      "Most artificial sweeteners are considered safe for the general population and do not cause cancer",
+  },
+  {
+    year: 2024,
+    field: "Biology",
+    old_teaching:
+      "It was believed that mental health issues were rare in young people",
+    new_discovery:
+      "Mental health challenges among youth are common and widely recognized",
+  },
+  {
+    year: 2024,
+    field: "Biology",
+    old_teaching: "It was taught that all viruses are harmful",
+    new_discovery:
+      "Some viruses are beneficial and play roles in ecosystems and human health",
+  },
+  {
+    year: 2025,
+    field: "Biology",
+    old_teaching: "It was believed that long COVID only affects older adults",
+    new_discovery:
+      "Long COVID can affect people of all ages, including children and young adults",
+  },
 ];
