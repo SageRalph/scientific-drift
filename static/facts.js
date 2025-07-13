@@ -87,6 +87,7 @@ const facts = [
     new_discovery:
       "Chromosomal variations such as XXY, XYY, and XO were identified and included in genetics education",
   },
+
   {
     year: 1981,
     field: "Biology",
@@ -174,6 +175,13 @@ const facts = [
       "It was taught that continents were static or only slowly drifting",
     new_discovery:
       "It was discovered that tectonic plates are shifting, confirmed by GPS and seafloor spreading",
+  },
+  {
+    year: 2000,
+    field: "Biology",
+    old_teaching: "Gender was taught as strictly binary, male or female",
+    new_discovery:
+      "Gender is recognized as a spectrum, including non-binary and transgender identities in education and research",
   },
   {
     year: 2001,
@@ -281,6 +289,14 @@ const facts = [
     old_teaching: "It was believed that dinosaurs only migrated",
     new_discovery:
       "Evidence of year-round reproduction in the Arctic was found",
+  },
+  {
+    year: 2015,
+    field: "Biology",
+    old_teaching:
+      "It was believed that gender identity was determined only by chromosomes",
+    new_discovery:
+      "Research showed gender identity involves complex interactions of biology, environment, and culture",
   },
   {
     year: 2016,
