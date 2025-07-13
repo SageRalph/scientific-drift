@@ -51,6 +51,10 @@ const facts = [
       "It was believed that computers could not solve complex mathematical problems.",
     new_discovery:
       "Computers can solve many complex problems, including calculus and algebra, with the help of algorithms",
+    sources: [
+      "https://www.britannica.com/browse/Computers",
+      "https://en.wikipedia.org/wiki/Computer_algebra_system",
+    ],
   },
   {
     year: 1971,
@@ -73,6 +77,10 @@ const facts = [
     old_teaching: "It was believed that viruses are living organisms",
     new_discovery:
       "Viruses are not considered truly alive, as they require host cells to reproduce",
+    sources: [
+      "https://microbiologysociety.org/publication/past-issues/what-is-life/article/are-viruses-alive-what-is-life.html",
+      "https://www.britannica.com/science/virus",
+    ],
   },
   {
     year: 1977,
@@ -81,7 +89,10 @@ const facts = [
       "It was taught that all elements are found naturally on Earth",
     new_discovery:
       "Technetium and other synthetic elements were created in laboratories",
-    sources: ["https://www.rsc.org/periodic-table/element/43/technetium"],
+    sources: [
+      "https://www.rsc.org/periodic-table/element/43/technetium",
+      "https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/synthetic-elements",
+    ],
   },
   {
     year: 1980,
@@ -90,18 +101,30 @@ const facts = [
       "It was taught that all humans have either XX or XY chromosomes",
     new_discovery:
       "Chromosomal variations such as XXY, XYY, and XO were identified and included in genetics education",
+    sources: [
+      "https://www.britannica.com/science/sex/Sex-determination",
+      "https://en.wikipedia.org/wiki/Intersex",
+    ],
   },
   {
     year: 1980,
     field: "Physics",
     old_teaching: "Time was generally taught as being absolute",
     new_discovery: "Relativistic time dilation is now routinely taught",
+    sources: [
+      "https://www.britannica.com/science/relativity",
+      "https://en.wikipedia.org/wiki/Time_dilation",
+    ],
   },
   {
     year: 1981,
     field: "Biology",
     old_teaching: "It was believed that all enzymes were proteins",
     new_discovery: "Discovery of ribozymes showed RNA can act as enzymes",
+    sources: [
+      "https://www.britannica.com/science/nucleic-acid/Ribosomal-RNA-rRNA#ref900528",
+      "https://en.wikipedia.org/wiki/Ribozyme",
+    ],
   },
   {
     year: 1983,
@@ -109,6 +132,10 @@ const facts = [
     old_teaching: "It was believed that all plastics are non-biodegradable",
     new_discovery:
       "Biodegradable plastics were developed and are now used in packaging and products",
+    sources: [
+      "https://www.britannica.com/technology/biodegradability#ref376229",
+      "https://en.wikipedia.org/wiki/Biodegradable_plastic",
+    ],
   },
   {
     year: 1985,
@@ -142,6 +169,10 @@ const facts = [
       "It was believed that ulcers were caused by stress or spicy food",
     new_discovery:
       "Helicobacter pylori infection was found to be the main cause of most stomach ulcers",
+    sources: [
+      "https://www.britannica.com/science/Helicobacter-pylori",
+      "https://en.wikipedia.org/wiki/Helicobacter_pylori",
+    ],
   },
   {
     year: 1990,
@@ -150,6 +181,7 @@ const facts = [
       "It was believed that mountain formation was a slow, gradual process only",
     new_discovery:
       "Mountains can form rapidly due to tectonic activity and earthquakes",
+    sources: ["https://en.wikipedia.org/wiki/Mountain_formation"],
   },
   {
     year: 1991,
@@ -158,6 +190,10 @@ const facts = [
       "It was taught that fractals were just mathematical curiosities",
     new_discovery:
       "Fractals are used in computer graphics, modeling nature, and signal processing",
+    sources: [
+      "https://www.britannica.com/science/fractal",
+      "https://en.wikipedia.org/wiki/Fractal",
+    ],
   },
   {
     year: 1992,
@@ -229,6 +265,12 @@ const facts = [
     old_teaching: "Gender was taught as strictly binary, male or female",
     new_discovery:
       "Gender is recognized as a spectrum, including non-binary and transgender identities in education and research",
+    sources: [
+      "https://www.britannica.com/topic/gender-identity",
+      "https://www.britannica.com/topic/nonbinary-gender",
+      "https://en.wikipedia.org/wiki/Gender_spectrum",
+      "https://en.wikipedia.org/wiki/Transgender",
+    ],
   },
   {
     year: 2000,
@@ -253,6 +295,7 @@ const facts = [
     old_teaching:
       "It was believed that plants only communicate through chemicals",
     new_discovery: "Plants use electrical signals to communicate internally",
+    sources: ["https://en.wikipedia.org/wiki/Plant_communication"],
   },
   {
     year: 2003,
@@ -335,12 +378,17 @@ const facts = [
       "It was taught that all cells in the human body have the same DNA",
     new_discovery:
       "Genetic mosaicism was found to be common, with some cells having different DNA sequences",
+    sources: ["https://en.wikipedia.org/wiki/Genetic_mosaicism"],
   },
   {
     year: 2012,
     field: "Biology",
     old_teaching: "Precise gene editing was considered limited",
     new_discovery: "CRISPR-Cas9 revolutionized gene editing",
+    sources: [
+      "https://www.britannica.com/science/CRISPR",
+      "https://en.wikipedia.org/wiki/CRISPR_gene_editing",
+    ],
   },
   {
     year: 2012,
@@ -354,6 +402,10 @@ const facts = [
     field: "Biology",
     old_teaching: "Dinosaurs were thought to be cold-blooded and scaly",
     new_discovery: "Feathered, warm-blooded polar dinosaurs were found",
+    sources: [
+      "https://www.britannica.com/animal/dinosaur",
+      "https://en.wikipedia.org/wiki/Dinosaur",
+    ],
   },
   {
     year: 2015,
@@ -369,6 +421,12 @@ const facts = [
       "It was believed that gender identity was determined only by chromosomes",
     new_discovery:
       "Research showed gender identity involves complex interactions of biology, environment, and culture",
+    sources: [
+    sources: [
+      "https://www.britannica.com/topic/gender-identity",
+      "https://en.wikipedia.org/wiki/Gender_spectrum",
+      "https://en.wikipedia.org/wiki/Transgender",
+    ],
   },
   {
     year: 2016,
@@ -379,9 +437,20 @@ const facts = [
   },
   {
     year: 2017,
+    field: "Biology",
+    old_teaching: "It was thought that primates could not be cloned",
+    new_discovery: "The first cloned macaque twins were created",
+    sources: [
+      "https://en.wikipedia.org/wiki/Cloning",
+      "https://www.britannica.com/science/cloning",
+    ],
+  },
+  {
+    year: 2017,
     field: "Geography",
     old_teaching: "It was taught that there are only seven continents",
     new_discovery: "Zealandia was identified as a hidden continent",
+    sources: ["https://en.wikipedia.org/wiki/Zealandia"],
   },
   {
     year: 2017,
@@ -389,12 +458,7 @@ const facts = [
     old_teaching: "It was believed the Great Pyramid was fully mapped",
     new_discovery:
       "A muon scan revealed an unknown internal chamber in the Great Pyramid",
-  },
-  {
-    year: 2018,
-    field: "Biology",
-    old_teaching: "It was thought that primates could not be cloned",
-    new_discovery: "The first cloned macaque twins were created",
+    sources: ["https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza"],
   },
   {
     year: 2018,
@@ -403,6 +467,10 @@ const facts = [
       "It was believed that plastic pollution was only a problem in oceans",
     new_discovery:
       "Microplastics were found in rainwater, soil, and human bodies worldwide",
+    sources: [
+      "https://en.wikipedia.org/wiki/Microplastics",
+      "https://www.britannica.com/science/plastic",
+    ],
   },
   {
     year: 2018,
@@ -443,6 +511,10 @@ const facts = [
     field: "Physics",
     old_teaching: "It was believed there was no water on Mars",
     new_discovery: "Layered ice-sand water deposits were found on Mars",
+    sources: [
+      "https://en.wikipedia.org/wiki/Water_on_Mars",
+      "https://www.britannica.com/place/Mars-planet",
+    ],
   },
   {
     year: 2020,
@@ -450,6 +522,10 @@ const facts = [
     old_teaching: "It was taught that each gene produced a single protein",
     new_discovery:
       "Alternative splicing and regulatory RNAs were recognized as important",
+    sources: [
+      "https://en.wikipedia.org/wiki/Alternative_splicing",
+      "https://www.britannica.com/science/gene",
+    ],
   },
   {
     year: 2020,
@@ -458,6 +534,17 @@ const facts = [
       "It was believed there were no rainforests in ancient Antarctica",
     new_discovery:
       "Fossil roots showed the existence of ancient polar rainforests in Antarctica",
+    sources: [
+      "https://en.wikipedia.org/wiki/Antarctica",
+      "https://www.britannica.com/place/Antarctica",
+    ],
+  },
+  {
+    year: 2006,
+    field: "Physics",
+    old_teaching: "Pluto was taught to be a planet",
+    new_discovery: "The IAU reclassified Pluto as a dwarf planet",
+    sources: ["https://en.wikipedia.org/wiki/Pluto"],
   },
   {
     year: 2020,
@@ -472,12 +559,14 @@ const facts = [
     field: "Biology",
     old_teaching: "Octopuses were considered simple creatures",
     new_discovery: "Complex distributed intelligence in octopuses was shown",
+    sources: ["https://en.wikipedia.org/wiki/Cephalopod_intelligence"],
   },
   {
     year: 2022,
     field: "History",
     old_teaching: "It was believed that Stonehenge’s stones came from Wales",
     new_discovery: "The Altar Stone was traced to Scotland",
+    sources: ["https://en.wikipedia.org/wiki/Stonehenge"],
   },
   {
     year: 2023,
@@ -493,6 +582,7 @@ const facts = [
     old_teaching: "Bredt’s Rule was considered inviolable",
     new_discovery:
       "Exceptions to Bredt’s Rule were found, and the rule was revised",
+    sources: ["https://en.wikipedia.org/wiki/Bredt%27s_rule"],
   },
   {
     year: 2023,
@@ -521,6 +611,7 @@ const facts = [
     field: "Physics",
     old_teaching: "It was believed there was no gravitational wave background",
     new_discovery: "A stochastic gravitational-wave background was detected",
+    sources: ["https://en.wikipedia.org/wiki/Gravitational_wave_background"],
   },
   {
     year: 2023,
@@ -528,6 +619,10 @@ const facts = [
     old_teaching: "It was thought that fusion energy was always decades away",
     new_discovery:
       "Net energy gain from fusion was achieved in laboratory settings",
+    sources: [
+      "https://www.sciencenews.org/article/nuclear-fusion-breakthrough-energy",
+      "https://www.britannica.com/science/nuclear-fusion"
+    ],
   },
   {
     year: 2024,
@@ -564,5 +659,6 @@ const facts = [
     old_teaching: "It was believed that long COVID only affects older adults",
     new_discovery:
       "Long COVID can affect people of all ages, including children and young adults",
+    sources: ["https://en.wikipedia.org/wiki/Long_COVID"],
   },
 ];
