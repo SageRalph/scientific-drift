@@ -141,3 +141,61 @@ footer {
 .timeline-content.right {
   text-align: left;
 }
+/* Responsive styles */
+@media (max-width: 900px) {
+  .timeline {
+    width: 98%;
+    padding: 10px 0;
+  }
+  .timeline-item {
+    width: 95%;
+    padding: 24px 0 0 0;
+    margin-bottom: 40px;
+  }
+  .timeline-teachings-row {
+    gap: 16px;
+  }
+  .timeline-content {
+    padding: 14px 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .timeline {
+    width: 100%;
+    padding: 4px 0;
+  }
+  .timeline-item {
+    width: 100%;
+    padding: 24px 0 0 0;
+    margin-bottom: 28px;
+    border-radius: 8px;
+  }
+  .timeline-year-heading {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  .timeline-field-heading {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    padding: 4px 0;
+  }
+  .timeline-teachings-row {
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+  .timeline-content {
+    width: 100%;
+    padding: 10px 6px;
+    text-align: left !important;
+  }
+  #inputYear {
+    width: 90vw;
+    font-size: 1rem;
+    padding: 8px;
+  }
+  header, footer {
+    padding: 0.3rem;
+  }
+}
