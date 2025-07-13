@@ -18,13 +18,22 @@ body {
   box-sizing: border-box;
 }
 
-header {
+header,
+footer {
   width: 100%;
   background-color: white;
-  position: sticky;
-  top: 0;
   padding: 0.5rem;
   z-index: 1000;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
 }
 
 .timeline-container {
