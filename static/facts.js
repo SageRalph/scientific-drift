@@ -1,5 +1,12 @@
 const facts = [
   {
+    year: 1953,
+    field: "Biology",
+    old_teaching: "It was taught that DNA's structure was unknown",
+    new_discovery:
+      "Double helix structure of DNA was discovered by Watson and Crick",
+  },
+  {
     year: 1960,
     field: "Biology",
     old_teaching:
@@ -8,16 +15,35 @@ const facts = [
       "Many bacteria are beneficial and essential for health, such as those in the human gut microbiome",
   },
   {
+    year: 1964,
+    field: "Physics",
+    old_teaching: "It was believed that vacuum was truly empty",
+    new_discovery:
+      "Discovery of the cosmic microwave background showed the universe is filled with radiation",
+  },
+  {
     year: 1965,
     field: "Chemistry",
-    old_teaching: "It was taught that all acids and bases are dangerous and harmful to touch.",
-    new_discovery: "Some acids and bases are safe and even essential in food and the body, such as citric acid and bicarbonate",
+    old_teaching:
+      "It was taught that all acids and bases are dangerous and harmful to touch.",
+    new_discovery:
+      "Some acids and bases are safe and even essential in food and the body, such as citric acid and bicarbonate",
   },
   {
     year: 1970,
     field: "Mathematics",
-    old_teaching: "It was believed that computers could not solve complex mathematical problems.",
-    new_discovery: "Computers can solve many complex problems, including calculus and algebra, with the help of algorithms",
+    old_teaching:
+      "It was believed that computers could not solve complex mathematical problems.",
+    new_discovery:
+      "Computers can solve many complex problems, including calculus and algebra, with the help of algorithms",
+  },
+  {
+    year: 1972,
+    field: "Geography",
+    old_teaching:
+      "It was taught that the Amazon rainforest was largely untouched by humans",
+    new_discovery:
+      "Archaeological evidence shows ancient civilizations managed and modified large areas of the Amazon",
   },
   {
     year: 1975,
@@ -27,10 +53,25 @@ const facts = [
       "Viruses are not considered truly alive, as they require host cells to reproduce",
   },
   {
+    year: 1977,
+    field: "Chemistry",
+    old_teaching:
+      "It was taught that all elements are found naturally on Earth",
+    new_discovery:
+      "Technetium and other synthetic elements were created in laboratories",
+  },
+  {
     year: 1980,
     field: "Physics",
     old_teaching: "Time was generally taught as being absolute",
     new_discovery: "Relativistic time dilation is now routinely taught",
+  },
+  {
+    year: 1983,
+    field: "Chemistry",
+    old_teaching: "It was believed that all plastics are non-biodegradable",
+    new_discovery:
+      "Biodegradable plastics were developed and are now used in packaging and products",
   },
   {
     year: 1985,
@@ -40,10 +81,20 @@ const facts = [
       "Atoms are made of subatomic particles: protons, neutrons, and electrons, and can be split in nuclear reactions",
   },
   {
+    year: 1986,
+    field: "Geography",
+    old_teaching:
+      "It was believed that the Challenger Deep was the deepest part of the ocean",
+    new_discovery:
+      "New submersible technology mapped even deeper ocean trenches",
+  },
+  {
     year: 1988,
     field: "Geography",
-    old_teaching: "It was taught that the ozone layer was stable and not affected by human activity.",
-    new_discovery: "Human-made chemicals like CFCs caused ozone depletion, leading to international action and recovery",
+    old_teaching:
+      "It was taught that the ozone layer was stable and not affected by human activity.",
+    new_discovery:
+      "Human-made chemicals like CFCs caused ozone depletion, leading to international action and recovery",
   },
   {
     year: 1990,
@@ -54,16 +105,34 @@ const facts = [
       "Mountains can form rapidly due to tectonic activity and earthquakes",
   },
   {
+    year: 1991,
+    field: "Mathematics",
+    old_teaching:
+      "It was taught that fractals were just mathematical curiosities",
+    new_discovery:
+      "Fractals are used in computer graphics, modeling nature, and signal processing",
+  },
+  {
     year: 1992,
     field: "Physics",
     old_teaching: "It was thought that planets only exist in our solar system",
     new_discovery: "Exoplanets were discovered around other stars",
   },
   {
+    year: 1995,
+    field: "Physics",
+    old_teaching:
+      "It was taught that gravitational waves were only theoretical",
+    new_discovery:
+      "Indirect evidence for gravitational waves was found in binary pulsar systems",
+  },
+  {
     year: 1997,
     field: "History",
-    old_teaching: "It was believed that the internet was a niche technology for scientists and the military.",
-    new_discovery: "The internet is a global network essential for communication, education, and commerce",
+    old_teaching:
+      "It was believed that the internet was a niche technology for scientists and the military.",
+    new_discovery:
+      "The internet is a global network essential for communication, education, and commerce",
   },
   {
     year: 2000,
@@ -96,6 +165,13 @@ const facts = [
   {
     year: 2004,
     field: "Physics",
+    old_teaching: "It was believed that teleportation was only science fiction",
+    new_discovery:
+      "Quantum teleportation of information has been demonstrated in laboratories",
+  },
+  {
+    year: 2004,
+    field: "Physics",
     old_teaching:
       "It was thought that there were no new two-dimensional materials",
     new_discovery: "Graphene was isolated, revolutionizing materials science",
@@ -109,8 +185,10 @@ const facts = [
   {
     year: 2008,
     field: "Mathematics",
-    old_teaching: "It was taught that prime numbers have no practical use outside of pure mathematics.",
-    new_discovery: "Prime numbers are essential for cryptography and internet security",
+    old_teaching:
+      "It was taught that prime numbers have no practical use outside of pure mathematics.",
+    new_discovery:
+      "Prime numbers are essential for cryptography and internet security",
   },
   {
     year: 2010,
@@ -124,6 +202,14 @@ const facts = [
     field: "Biology",
     old_teaching: "It was believed that life could only arise naturally",
     new_discovery: "The first synthetic cell was built with a synthetic genome",
+  },
+  {
+    year: 2011,
+    field: "Biology",
+    old_teaching:
+      "It was taught that all cells in the human body have the same DNA",
+    new_discovery:
+      "Genetic mosaicism was found to be common, with some cells having different DNA sequences",
   },
   {
     year: 2012,
@@ -168,6 +254,14 @@ const facts = [
     field: "Geography",
     old_teaching: "It was taught that there are only seven continents",
     new_discovery: "Zealandia was identified as a hidden continent",
+  },
+  {
+    year: 2018,
+    field: "Physics",
+    old_teaching:
+      "It was believed that quantum entanglement could not be used for communication",
+    new_discovery:
+      "Quantum networks using entanglement have been demonstrated for secure communication",
   },
   {
     year: 2018,
