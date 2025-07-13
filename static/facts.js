@@ -80,6 +80,14 @@ const facts = [
     new_discovery: "Relativistic time dilation is now routinely taught",
   },
   {
+    year: 1980,
+    field: "Biology",
+    old_teaching:
+      "It was taught that all humans have either XX or XY chromosomes",
+    new_discovery:
+      "Chromosomal variations such as XXY, XYY, and XO were identified and included in genetics education",
+  },
+  {
     year: 1981,
     field: "Biology",
     old_teaching: "It was believed that all enzymes were proteins",
@@ -399,13 +407,5 @@ const facts = [
     field: "Physics",
     old_teaching: "It was believed there was no gravitational wave background",
     new_discovery: "A stochastic gravitational-wave background was detected",
-  },
-  {
-    year: 2024,
-    field: "Chemistry",
-    old_teaching:
-      "It was believed that only carbon-based molecules could form complex structures",
-    new_discovery:
-      "Silicon-based nanostructures were engineered for electronics",
   },
 ];
