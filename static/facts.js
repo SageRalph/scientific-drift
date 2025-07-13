@@ -1,5 +1,47 @@
 const facts = [
   {
+    year: 1960,
+    field: "Biology",
+    old_teaching:
+      "It was taught that all bacteria are harmful and cause disease.",
+    new_discovery:
+      "Many bacteria are beneficial and essential for health, such as those in the human gut microbiome.",
+  },
+  {
+    year: 1980,
+    field: "Physics",
+    old_teaching: "Time was generally taught as being absolute",
+    new_discovery: "Relativistic time dilation is now routinely taught",
+  },
+  {
+    year: 1975,
+    field: "Biology",
+    old_teaching: "It was believed that viruses are living organisms.",
+    new_discovery:
+      "Viruses are not considered truly alive, as they require host cells to reproduce.",
+  },
+  {
+    year: 1985,
+    field: "Physics",
+    old_teaching: "Atoms were taught as indivisible units of matter.",
+    new_discovery:
+      "Atoms are made of subatomic particles: protons, neutrons, and electrons, and can be split in nuclear reactions.",
+  },
+  {
+    year: 1990,
+    field: "Geology",
+    old_teaching:
+      "It was believed that mountain formation was a slow, gradual process only.",
+    new_discovery:
+      "Mountains can form rapidly due to tectonic activity and earthquakes.",
+  },
+  {
+    year: 1992,
+    field: "Astronomy",
+    old_teaching: "It was thought that planets only exist in our solar system.",
+    new_discovery: "Exoplanets were discovered around other stars",
+  },
+  {
     year: 2000,
     field: "Geology",
     old_teaching:
@@ -176,12 +218,6 @@ const facts = [
     old_teaching: "The impact of humans on climate was debated",
     new_discovery:
       "Consensus on fossil fuel-driven climate change was confirmed",
-  },
-  {
-    year: 2023,
-    field: "Physics",
-    old_teaching: "Time was considered absolute",
-    new_discovery: "Relativistic time dilation is now routinely measured",
   },
   {
     year: 2023,
