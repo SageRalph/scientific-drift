@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .timeline-field-heading {
   text-align: center;
   font-size: 1.15rem;
@@ -15,12 +21,7 @@ body {
   padding: 0;
   background-color: #f4f4f9;
   text-align: center;
-  box-sizing: border-box;
   overflow-x: hidden;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
 }
 
 header,
@@ -42,11 +43,6 @@ footer {
   bottom: 0;
 }
 
-.timeline-container {
-  padding: 20px;
-  position: relative;
-}
-
 #inputYear {
   display: block;
   margin: 20px auto;
@@ -57,8 +53,8 @@ footer {
 
 .timeline {
   position: relative;
-  margin: 20px auto;
-  padding: 20px 0;
+  margin: auto;
+  padding: 32px 0;
   max-width: 900px;
   width: 100%;
 }
@@ -71,12 +67,11 @@ footer {
   width: 6px;
   height: 100%;
   background: linear-gradient(180deg, #90caf9 0%, #e3f2fd 100%);
-  border-radius: 3px;
   z-index: 0;
 }
 
 .timeline-item {
-  margin-bottom: 48px;
+  margin: 64px auto;
   position: relative;
   padding-bottom: 16px;
   background: #fff;
@@ -86,16 +81,13 @@ footer {
   transition: box-shadow 0.2s;
   max-width: 700px;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 32px 0 0 0;
-  margin-bottom: 64px;
+  padding: 0;
 }
 .timeline-item::before {
   content: "";
   position: absolute;
   left: 50%;
-  top: 0;
+  top: -7px;
   transform: translateX(-50%);
   width: 18px;
   height: 18px;
@@ -114,7 +106,8 @@ footer {
   text-align: center;
   font-size: 2.2rem;
   font-weight: 700;
-  margin: 0 0 18px 0;
+  padding: 18px 0;
+  margin: 0;
   color: #1565c0;
   letter-spacing: 1px;
   text-shadow: 0 2px 8px rgba(21, 101, 192, 0.08);
