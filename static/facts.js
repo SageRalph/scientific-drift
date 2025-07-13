@@ -5,6 +5,7 @@ const facts = [
     old_teaching: "DNA's structure was unknown",
     new_discovery:
       "Double helix structure of DNA was discovered by Watson and Crick",
+    sources: ["https://www.nature.com/articles/171737a0"],
   },
   {
     year: 1960,
@@ -13,6 +14,10 @@ const facts = [
       "It was taught that all bacteria are harmful and cause disease",
     new_discovery:
       "Many bacteria are beneficial and essential for health, such as those in the human gut microbiome",
+    sources: [
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5641835/",
+      "https://www.nature.com/articles/nrmicro1978",
+    ],
   },
   {
     year: 1962,
@@ -20,6 +25,7 @@ const facts = [
     old_teaching:
       "It was believed that continental drift was just a hypothesis",
     new_discovery: "Seafloor spreading provided evidence for plate tectonics",
+    sources: ["https://www.britannica.com/science/seafloor-spreading"],
   },
   {
     year: 1964,
@@ -27,6 +33,7 @@ const facts = [
     old_teaching: "It was believed that vacuum was truly empty",
     new_discovery:
       "Discovery of the cosmic microwave background showed the universe is filled with radiation",
+    sources: ["https://www.nobelprize.org/prizes/physics/1978/summary/"],
   },
   {
     year: 1965,
@@ -35,6 +42,7 @@ const facts = [
       "It was taught that all acids and bases are dangerous and harmful to touch.",
     new_discovery:
       "Some acids and bases are safe and even essential in food and the body, such as citric acid and bicarbonate",
+    sources: ["https://www.healthline.com/nutrition/citric-acid"],
   },
   {
     year: 1970,
@@ -49,6 +57,7 @@ const facts = [
     field: "Physics",
     old_teaching: "Only visible light was used for astronomy",
     new_discovery: "X-ray telescopes revealed new cosmic phenomena",
+    sources: ["https://www.nasa.gov/mission_pages/chandra/main/index.html"],
   },
   {
     year: 1972,
@@ -72,6 +81,7 @@ const facts = [
       "It was taught that all elements are found naturally on Earth",
     new_discovery:
       "Technetium and other synthetic elements were created in laboratories",
+    sources: ["https://www.rsc.org/periodic-table/element/43/technetium"],
   },
   {
     year: 1980,
@@ -106,6 +116,7 @@ const facts = [
     old_teaching: "Atoms were taught as indivisible units of matter",
     new_discovery:
       "Atoms are made of subatomic particles: protons, neutrons, and electrons, and can be split in nuclear reactions",
+    sources: ["https://www.britannica.com/science/atom"],
   },
   {
     year: 1986,
@@ -122,6 +133,7 @@ const facts = [
       "It was taught that the ozone layer was stable and not affected by human activity.",
     new_discovery:
       "Human-made chemicals like CFCs caused ozone depletion, leading to international action and recovery",
+    sources: ["https://www.epa.gov/ozone-layer-protection"],
   },
   {
     year: 1990,
@@ -152,12 +164,17 @@ const facts = [
     field: "Physics",
     old_teaching: "It was thought that planets only exist in our solar system",
     new_discovery: "Exoplanets were discovered around other stars",
+    sources: [
+      "https://exoplanets.nasa.gov/",
+      "https://www.nasa.gov/mission_pages/kepler/main/index.html",
+    ],
   },
   {
     year: 1994,
     field: "Physics",
     old_teaching: "It was taught that neutrinos have no mass",
     new_discovery: "Neutrino oscillations proved neutrinos have mass",
+    sources: ["https://www.nobelprize.org/prizes/physics/2015/summary/"],
   },
   {
     year: 1995,
@@ -166,6 +183,9 @@ const facts = [
       "It was taught that all fats are unhealthy and should be avoided",
     new_discovery:
       "Unsaturated fats are beneficial for heart health, while trans fats are harmful",
+    sources: [
+      "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/healthy-cooking-oils",
+    ],
   },
   {
     year: 1995,
@@ -174,6 +194,10 @@ const facts = [
       "It was taught that gravitational waves were only theoretical",
     new_discovery:
       "Indirect evidence for gravitational waves was found in binary pulsar systems",
+    sources: [
+      "https://www.nobelprize.org/prizes/physics/1993/summary/",
+      "https://www.ligo.caltech.edu/page/gravitational-waves",
+    ],
   },
   {
     year: 1997,
@@ -182,6 +206,10 @@ const facts = [
       "It was believed that the internet was a niche technology for scientists and the military.",
     new_discovery:
       "The internet is a global network essential for communication, education, and commerce",
+    sources: [
+      "https://www.internetsociety.org/internet/history-internet/brief-history-internet/",
+      "https://www.britannica.com/topic/Internet",
+    ],
   },
   {
     year: 2000,
@@ -189,6 +217,10 @@ const facts = [
     old_teaching: "It was suggested that vaccines might cause autism",
     new_discovery:
       "Extensive research showed no link between vaccines and autism and the original study was retracted",
+    sources: [
+      "https://www.cdc.gov/vaccine-safety/about/autism.html",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3136032/",
+    ],
   },
 
   {
@@ -205,6 +237,7 @@ const facts = [
       "It was taught that continents were static or only slowly drifting",
     new_discovery:
       "It was discovered that tectonic plates are shifting, confirmed by GPS and seafloor spreading",
+    sources: ["https://www.britannica.com/science/plate-tectonics"],
   },
   {
     year: 2001,
@@ -212,6 +245,7 @@ const facts = [
     old_teaching: "The expansion of the universe was uncertain",
     new_discovery:
       "Dark energy was discovered, and the accelerated expansion model was accepted",
+    sources: ["https://www.nobelprize.org/prizes/physics/2011/summary/"],
   },
   {
     year: 2002,
@@ -226,12 +260,16 @@ const facts = [
     old_teaching: "It was believed that humans share 99.9% genetic identity",
     new_discovery:
       "The Human Genome Project revealed significant structural and epigenetic variation among individuals",
+    sources: ["https://www.genome.gov/human-genome-project"],
   },
   {
     year: 2003,
     field: "Mathematics",
     old_teaching: "The Poincaré Conjecture was considered unsolved",
     new_discovery: "Perelman’s proof of the Poincaré Conjecture was accepted",
+    sources: [
+      "https://www.claymath.org/millennium-problems/poincare-conjecture",
+    ],
   },
   {
     year: 2004,
@@ -246,6 +284,10 @@ const facts = [
     old_teaching:
       "It was thought that there were no new two-dimensional materials",
     new_discovery: "Graphene was isolated, revolutionizing materials science",
+    sources: [
+      "https://www.nobelprize.org/prizes/physics/2010/summary/",
+      "https://www.britannica.com/science/graphene",
+    ],
   },
   {
     year: 2005,
@@ -254,6 +296,9 @@ const facts = [
       "It was taught that cell phones cause dangerous levels of radiation",
     new_discovery:
       "Studies found no evidence of harmful radiation from typical cell phone use",
+    sources: [
+      "https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation/cell-phones-fact-sheet",
+    ],
   },
   {
     year: 2006,
@@ -262,31 +307,26 @@ const facts = [
     new_discovery: "The IAU reclassified Pluto as a dwarf planet",
   },
   {
-    year: 2008,
-    field: "Mathematics",
-    old_teaching:
-      "It was taught that prime numbers have no practical use outside of pure mathematics.",
-    new_discovery:
-      "Prime numbers are essential for cryptography and internet security",
-  },
-  {
     year: 2010,
     field: "Biology",
     old_teaching: "Most DNA was considered 'junk'",
     new_discovery:
       "The ENCODE project showed that DNA has broad regulatory roles",
+    sources: ["https://www.nature.com/articles/nature11247"],
   },
   {
     year: 2010,
     field: "Biology",
     old_teaching: "It was believed that life could only arise naturally",
     new_discovery: "The first synthetic cell was built with a synthetic genome",
+    sources: ["https://www.science.org/doi/10.1126/science.1190719"],
   },
   {
     year: 2010,
     field: "Physics",
     old_teaching: "It was taught that antimatter was only theoretical",
     new_discovery: "Antimatter was trapped and studied at CERN",
+    sources: ["https://home.cern/science/physics/antimatter"],
   },
   {
     year: 2011,
@@ -307,6 +347,7 @@ const facts = [
     field: "Physics",
     old_teaching: "The Higgs boson was considered hypothetical",
     new_discovery: "The Higgs boson was discovered at the LHC",
+    sources: ["https://home.cern/science/physics/higgs-boson"],
   },
   {
     year: 2014,
@@ -334,6 +375,7 @@ const facts = [
     field: "Physics",
     old_teaching: "Gravitational waves had never been observed",
     new_discovery: "LIGO detected gravitational waves for the first time",
+    sources: ["https://www.ligo.caltech.edu/page/gravitational-waves"],
   },
   {
     year: 2017,
@@ -367,6 +409,9 @@ const facts = [
     field: "History",
     old_teaching: "It was believed that all dinosaur eggs were hard-shelled",
     new_discovery: "Soft-shelled dinosaur eggs were discovered",
+    sources: [
+      "https://www.nationalgeographic.com/science/article/soft-shelled-dinosaur-eggs",
+    ],
   },
   {
     year: 2018,
@@ -383,6 +428,7 @@ const facts = [
       "It was believed that pandemics were rare and unlikely in the modern era",
     new_discovery:
       "COVID-19 pandemic showed global vulnerability to infectious diseases",
+    sources: ["https://www.cdc.gov/covid/about/index.html"],
   },
   {
     year: 2019,
@@ -390,6 +436,7 @@ const facts = [
     old_teaching: "Black holes had never been seen directly",
     new_discovery:
       "The Event Horizon Telescope imaged a black hole for the first time",
+    sources: ["https://eventhorizontelescope.org/"],
   },
   {
     year: 2019,
@@ -418,19 +465,13 @@ const facts = [
     old_teaching: "The kilogram was defined by a physical artifact",
     new_discovery:
       "The SI system redefined the kilogram using Planck’s constant",
+    sources: ["https://www.nist.gov/si-redefinition"],
   },
   {
     year: 2021,
     field: "Biology",
     old_teaching: "Octopuses were considered simple creatures",
     new_discovery: "Complex distributed intelligence in octopuses was shown",
-  },
-  {
-    year: 2022,
-    field: "Biology",
-    old_teaching: "It was taught that the human genome was mostly complete",
-    new_discovery:
-      "The full 3.1 billion base-pair reference genome was reached",
   },
   {
     year: 2022,
@@ -459,12 +500,14 @@ const facts = [
     old_teaching: "The impact of humans on climate was debated",
     new_discovery:
       "Consensus on fossil fuel-driven climate change was confirmed",
+    sources: ["https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-3/"],
   },
   {
     year: 2023,
     field: "Physics",
     old_teaching: "It was believed the Milky Way was calm and uneventful",
     new_discovery: "Gaia showed the Milky Way’s galaxy merger history",
+    sources: ["https://www.esa.int/Science_Exploration/Space_Science/Gaia"],
   },
   {
     year: 2023,
@@ -493,6 +536,9 @@ const facts = [
       "It was suggested that artificial sweeteners may be dangerous",
     new_discovery:
       "Most artificial sweeteners are considered safe for the general population and do not cause cancer",
+    sources: [
+      "https://www.cancer.gov/about-cancer/causes-prevention/risk/diet/artificial-sweeteners-fact-sheet",
+    ],
   },
   {
     year: 2024,
@@ -501,6 +547,9 @@ const facts = [
       "It was believed that mental health issues were rare in young people",
     new_discovery:
       "Mental health challenges among youth are common and widely recognized",
+    sources: [
+      "https://www.cdc.gov/mental-health/about/?CDC_AAref_Val=https://www.cdc.gov/mentalhealth/learn/index.htm",
+    ],
   },
   {
     year: 2024,
