@@ -126,6 +126,14 @@ const facts = [
   },
   {
     year: 1990,
+    field: "Biology",
+    old_teaching:
+      "It was believed that ulcers were caused by stress or spicy food",
+    new_discovery:
+      "Helicobacter pylori infection was found to be the main cause of most stomach ulcers",
+  },
+  {
+    year: 1990,
     field: "Geography",
     old_teaching:
       "It was believed that mountain formation was a slow, gradual process only",
@@ -161,6 +169,14 @@ const facts = [
       "Indirect evidence for gravitational waves was found in binary pulsar systems",
   },
   {
+    year: 1995,
+    field: "Biology",
+    old_teaching:
+      "It was taught that all fats are unhealthy and should be avoided",
+    new_discovery:
+      "Unsaturated fats are beneficial for heart health, while trans fats are harmful",
+  },
+  {
     year: 1997,
     field: "History",
     old_teaching:
@@ -176,6 +192,14 @@ const facts = [
     new_discovery:
       "It was discovered that tectonic plates are shifting, confirmed by GPS and seafloor spreading",
   },
+  {
+    year: 2000,
+    field: "Biology",
+    old_teaching: "It was suggested that vaccines might cause autism",
+    new_discovery:
+      "Extensive research showed no link between vaccines and autism and the original study was retracted",
+  },
+
   {
     year: 2000,
     field: "Biology",
@@ -216,6 +240,14 @@ const facts = [
     old_teaching: "It was believed that teleportation was only science fiction",
     new_discovery:
       "Quantum teleportation of information has been demonstrated in laboratories",
+  },
+  {
+    year: 2005,
+    field: "Biology",
+    old_teaching:
+      "It was taught that cell phones cause dangerous levels of radiation",
+    new_discovery:
+      "Studies found no evidence of harmful radiation from typical cell phone use",
   },
   {
     year: 2004,
