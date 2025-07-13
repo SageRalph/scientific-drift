@@ -3,9 +3,9 @@ const facts = [
     year: 1960,
     field: "Biology",
     old_teaching:
-      "It was taught that all bacteria are harmful and cause disease.",
+      "It was taught that all bacteria are harmful and cause disease",
     new_discovery:
-      "Many bacteria are beneficial and essential for health, such as those in the human gut microbiome.",
+      "Many bacteria are beneficial and essential for health, such as those in the human gut microbiome",
   },
   {
     year: 1980,
@@ -16,34 +16,34 @@ const facts = [
   {
     year: 1975,
     field: "Biology",
-    old_teaching: "It was believed that viruses are living organisms.",
+    old_teaching: "It was believed that viruses are living organisms",
     new_discovery:
-      "Viruses are not considered truly alive, as they require host cells to reproduce.",
+      "Viruses are not considered truly alive, as they require host cells to reproduce",
   },
   {
     year: 1985,
     field: "Physics",
-    old_teaching: "Atoms were taught as indivisible units of matter.",
+    old_teaching: "Atoms were taught as indivisible units of matter",
     new_discovery:
-      "Atoms are made of subatomic particles: protons, neutrons, and electrons, and can be split in nuclear reactions.",
+      "Atoms are made of subatomic particles: protons, neutrons, and electrons, and can be split in nuclear reactions",
   },
   {
     year: 1990,
-    field: "Geology",
+    field: "Geography",
     old_teaching:
-      "It was believed that mountain formation was a slow, gradual process only.",
+      "It was believed that mountain formation was a slow, gradual process only",
     new_discovery:
-      "Mountains can form rapidly due to tectonic activity and earthquakes.",
+      "Mountains can form rapidly due to tectonic activity and earthquakes",
   },
   {
     year: 1992,
-    field: "Astronomy",
-    old_teaching: "It was thought that planets only exist in our solar system.",
+    field: "Physics",
+    old_teaching: "It was thought that planets only exist in our solar system",
     new_discovery: "Exoplanets were discovered around other stars",
   },
   {
     year: 2000,
-    field: "Geology",
+    field: "Geography",
     old_teaching:
       "It was taught that continents were static or only slowly drifting",
     new_discovery:
@@ -51,14 +51,14 @@ const facts = [
   },
   {
     year: 2001,
-    field: "Astronomy",
+    field: "Physics",
     old_teaching: "The expansion of the universe was uncertain",
     new_discovery:
       "Dark energy was discovered, and the accelerated expansion model was accepted",
   },
   {
     year: 2003,
-    field: "Genetics",
+    field: "Biology",
     old_teaching: "It was believed that humans share 99.9% genetic identity",
     new_discovery:
       "The Human Genome Project revealed significant structural and epigenetic variation among individuals",
@@ -78,7 +78,7 @@ const facts = [
   },
   {
     year: 2006,
-    field: "Astronomy",
+    field: "Physics",
     old_teaching: "Pluto was taught to be a planet",
     new_discovery: "The IAU reclassified Pluto as a dwarf planet",
   },
@@ -91,31 +91,31 @@ const facts = [
   },
   {
     year: 2010,
-    field: "Synthetic Biology",
+    field: "Biology",
     old_teaching: "It was believed that life could only arise naturally",
     new_discovery: "The first synthetic cell was built with a synthetic genome",
   },
   {
     year: 2012,
-    field: "Particle Physics",
+    field: "Physics",
     old_teaching: "The Higgs boson was considered hypothetical",
     new_discovery: "The Higgs boson was discovered at the LHC",
   },
   {
     year: 2012,
-    field: "Genetics",
+    field: "Biology",
     old_teaching: "Precise gene editing was considered limited",
     new_discovery: "CRISPR-Cas9 revolutionized gene editing",
   },
   {
     year: 2014,
-    field: "Paleontology",
+    field: "Biology",
     old_teaching: "Dinosaurs were thought to be cold-blooded and scaly",
     new_discovery: "Feathered, warm-blooded polar dinosaurs were found",
   },
   {
     year: 2015,
-    field: "Paleontology",
+    field: "Biology",
     old_teaching: "It was believed that dinosaurs only migrated",
     new_discovery:
       "Evidence of year-round reproduction in the Arctic was found",
@@ -128,39 +128,39 @@ const facts = [
   },
   {
     year: 2017,
-    field: "Archaeology",
+    field: "History",
     old_teaching: "It was believed the Great Pyramid was fully mapped",
     new_discovery:
       "A muon scan revealed an unknown internal chamber in the Great Pyramid",
   },
   {
     year: 2017,
-    field: "Geology",
+    field: "Geography",
     old_teaching: "It was taught that there are only seven continents",
     new_discovery: "Zealandia was identified as a hidden continent",
   },
   {
     year: 2018,
-    field: "Paleontology",
+    field: "History",
     old_teaching: "It was believed that all dinosaur eggs were hard-shelled",
     new_discovery: "Soft-shelled dinosaur eggs were discovered",
   },
   {
     year: 2018,
-    field: "Genetics",
+    field: "Biology",
     old_teaching: "It was thought that primates could not be cloned",
     new_discovery: "The first cloned macaque twins were created",
   },
   {
     year: 2019,
-    field: "Astronomy",
+    field: "Physics",
     old_teaching: "Black holes had never been seen directly",
     new_discovery:
       "The Event Horizon Telescope imaged a black hole for the first time",
   },
   {
     year: 2019,
-    field: "Mars Science",
+    field: "Physics",
     old_teaching: "It was believed there was no water on Mars",
     new_discovery: "Layered ice-sand water deposits were found on Mars",
   },
@@ -180,7 +180,7 @@ const facts = [
   },
   {
     year: 2020,
-    field: "Geology",
+    field: "Geography",
     old_teaching:
       "It was believed there were no rainforests in ancient Antarctica",
     new_discovery:
@@ -188,19 +188,19 @@ const facts = [
   },
   {
     year: 2021,
-    field: "Zoology",
+    field: "Biology",
     old_teaching: "Octopuses were considered simple creatures",
     new_discovery: "Complex distributed intelligence in octopuses was shown",
   },
   {
     year: 2022,
-    field: "Archaeology",
+    field: "History",
     old_teaching: "It was believed that Stonehenge’s stones came from Wales",
     new_discovery: "The Altar Stone was traced to Scotland",
   },
   {
     year: 2022,
-    field: "Genetics",
+    field: "Biology",
     old_teaching: "It was taught that the human genome was mostly complete",
     new_discovery:
       "The full 3.1 billion base-pair reference genome was reached",
@@ -214,7 +214,7 @@ const facts = [
   },
   {
     year: 2023,
-    field: "Climate Science",
+    field: "Geography",
     old_teaching: "The impact of humans on climate was debated",
     new_discovery:
       "Consensus on fossil fuel-driven climate change was confirmed",
@@ -234,7 +234,7 @@ const facts = [
   },
   {
     year: 2023,
-    field: "Particle Physics",
+    field: "Physics",
     old_teaching: "It was believed there was no gravitational wave background",
     new_discovery: "A stochastic gravitational-wave background was detected",
   },
