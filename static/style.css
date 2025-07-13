@@ -187,4 +187,7 @@ footer {
     gap: 6px;
     margin-bottom: 6px;
   }
+  .timeline-container {
+    padding-bottom: 100px;
+  }
 }
