@@ -75,19 +75,18 @@ const facts = [
   },
   {
     year: 1980,
-    field: "Physics",
-    old_teaching: "Time was generally taught as being absolute",
-    new_discovery: "Relativistic time dilation is now routinely taught",
-  },
-  {
-    year: 1980,
     field: "Biology",
     old_teaching:
       "It was taught that all humans have either XX or XY chromosomes",
     new_discovery:
       "Chromosomal variations such as XXY, XYY, and XO were identified and included in genetics education",
   },
-
+  {
+    year: 1980,
+    field: "Physics",
+    old_teaching: "Time was generally taught as being absolute",
+    new_discovery: "Relativistic time dilation is now routinely taught",
+  },
   {
     year: 1981,
     field: "Biology",
@@ -162,19 +161,19 @@ const facts = [
   },
   {
     year: 1995,
-    field: "Physics",
-    old_teaching:
-      "It was taught that gravitational waves were only theoretical",
-    new_discovery:
-      "Indirect evidence for gravitational waves was found in binary pulsar systems",
-  },
-  {
-    year: 1995,
     field: "Biology",
     old_teaching:
       "It was taught that all fats are unhealthy and should be avoided",
     new_discovery:
       "Unsaturated fats are beneficial for heart health, while trans fats are harmful",
+  },
+  {
+    year: 1995,
+    field: "Physics",
+    old_teaching:
+      "It was taught that gravitational waves were only theoretical",
+    new_discovery:
+      "Indirect evidence for gravitational waves was found in binary pulsar systems",
   },
   {
     year: 1997,
@@ -183,14 +182,6 @@ const facts = [
       "It was believed that the internet was a niche technology for scientists and the military.",
     new_discovery:
       "The internet is a global network essential for communication, education, and commerce",
-  },
-  {
-    year: 2000,
-    field: "Geography",
-    old_teaching:
-      "It was taught that continents were static or only slowly drifting",
-    new_discovery:
-      "It was discovered that tectonic plates are shifting, confirmed by GPS and seafloor spreading",
   },
   {
     year: 2000,
@@ -206,6 +197,14 @@ const facts = [
     old_teaching: "Gender was taught as strictly binary, male or female",
     new_discovery:
       "Gender is recognized as a spectrum, including non-binary and transgender identities in education and research",
+  },
+  {
+    year: 2000,
+    field: "Geography",
+    old_teaching:
+      "It was taught that continents were static or only slowly drifting",
+    new_discovery:
+      "It was discovered that tectonic plates are shifting, confirmed by GPS and seafloor spreading",
   },
   {
     year: 2001,
@@ -242,19 +241,19 @@ const facts = [
       "Quantum teleportation of information has been demonstrated in laboratories",
   },
   {
+    year: 2004,
+    field: "Physics",
+    old_teaching:
+      "It was thought that there were no new two-dimensional materials",
+    new_discovery: "Graphene was isolated, revolutionizing materials science",
+  },
+  {
     year: 2005,
     field: "Biology",
     old_teaching:
       "It was taught that cell phones cause dangerous levels of radiation",
     new_discovery:
       "Studies found no evidence of harmful radiation from typical cell phone use",
-  },
-  {
-    year: 2004,
-    field: "Physics",
-    old_teaching:
-      "It was thought that there were no new two-dimensional materials",
-    new_discovery: "Graphene was isolated, revolutionizing materials science",
   },
   {
     year: 2006,
@@ -279,15 +278,15 @@ const facts = [
   },
   {
     year: 2010,
-    field: "Physics",
-    old_teaching: "It was taught that antimatter was only theoretical",
-    new_discovery: "Antimatter was trapped and studied at CERN",
-  },
-  {
-    year: 2010,
     field: "Biology",
     old_teaching: "It was believed that life could only arise naturally",
     new_discovery: "The first synthetic cell was built with a synthetic genome",
+  },
+  {
+    year: 2010,
+    field: "Physics",
+    old_teaching: "It was taught that antimatter was only theoretical",
+    new_discovery: "Antimatter was trapped and studied at CERN",
   },
   {
     year: 2011,
@@ -299,15 +298,15 @@ const facts = [
   },
   {
     year: 2012,
-    field: "Physics",
-    old_teaching: "The Higgs boson was considered hypothetical",
-    new_discovery: "The Higgs boson was discovered at the LHC",
-  },
-  {
-    year: 2012,
     field: "Biology",
     old_teaching: "Precise gene editing was considered limited",
     new_discovery: "CRISPR-Cas9 revolutionized gene editing",
+  },
+  {
+    year: 2012,
+    field: "Physics",
+    old_teaching: "The Higgs boson was considered hypothetical",
+    new_discovery: "The Higgs boson was discovered at the LHC",
   },
   {
     year: 2014,
@@ -338,30 +337,16 @@ const facts = [
   },
   {
     year: 2017,
-    field: "History",
-    old_teaching: "It was believed the Great Pyramid was fully mapped",
-    new_discovery:
-      "A muon scan revealed an unknown internal chamber in the Great Pyramid",
-  },
-  {
-    year: 2017,
     field: "Geography",
     old_teaching: "It was taught that there are only seven continents",
     new_discovery: "Zealandia was identified as a hidden continent",
   },
   {
-    year: 2018,
-    field: "Physics",
-    old_teaching:
-      "It was believed that quantum entanglement could not be used for communication",
-    new_discovery:
-      "Quantum networks using entanglement have been demonstrated for secure communication",
-  },
-  {
-    year: 2018,
+    year: 2017,
     field: "History",
-    old_teaching: "It was believed that all dinosaur eggs were hard-shelled",
-    new_discovery: "Soft-shelled dinosaur eggs were discovered",
+    old_teaching: "It was believed the Great Pyramid was fully mapped",
+    new_discovery:
+      "A muon scan revealed an unknown internal chamber in the Great Pyramid",
   },
   {
     year: 2018,
@@ -378,6 +363,28 @@ const facts = [
       "Microplastics were found in rainwater, soil, and human bodies worldwide",
   },
   {
+    year: 2018,
+    field: "History",
+    old_teaching: "It was believed that all dinosaur eggs were hard-shelled",
+    new_discovery: "Soft-shelled dinosaur eggs were discovered",
+  },
+  {
+    year: 2018,
+    field: "Physics",
+    old_teaching:
+      "It was believed that quantum entanglement could not be used for communication",
+    new_discovery:
+      "Quantum networks using entanglement have been demonstrated for secure communication",
+  },
+  {
+    year: 2019,
+    field: "Biology",
+    old_teaching:
+      "It was believed that pandemics were rare and unlikely in the modern era",
+    new_discovery:
+      "COVID-19 pandemic showed global vulnerability to infectious diseases",
+  },
+  {
     year: 2019,
     field: "Physics",
     old_teaching: "Black holes had never been seen directly",
@@ -389,21 +396,6 @@ const facts = [
     field: "Physics",
     old_teaching: "It was believed there was no water on Mars",
     new_discovery: "Layered ice-sand water deposits were found on Mars",
-  },
-  {
-    year: 2019,
-    field: "Biology",
-    old_teaching:
-      "It was believed that pandemics were rare and unlikely in the modern era",
-    new_discovery:
-      "COVID-19 pandemic showed global vulnerability to infectious diseases",
-  },
-  {
-    year: 2020,
-    field: "Physics",
-    old_teaching: "The kilogram was defined by a physical artifact",
-    new_discovery:
-      "The SI system redefined the kilogram using Planck’s constant",
   },
   {
     year: 2020,
@@ -421,10 +413,24 @@ const facts = [
       "Fossil roots showed the existence of ancient polar rainforests in Antarctica",
   },
   {
+    year: 2020,
+    field: "Physics",
+    old_teaching: "The kilogram was defined by a physical artifact",
+    new_discovery:
+      "The SI system redefined the kilogram using Planck’s constant",
+  },
+  {
     year: 2021,
     field: "Biology",
     old_teaching: "Octopuses were considered simple creatures",
     new_discovery: "Complex distributed intelligence in octopuses was shown",
+  },
+  {
+    year: 2022,
+    field: "Biology",
+    old_teaching: "It was taught that the human genome was mostly complete",
+    new_discovery:
+      "The full 3.1 billion base-pair reference genome was reached",
   },
   {
     year: 2022,
@@ -433,11 +439,12 @@ const facts = [
     new_discovery: "The Altar Stone was traced to Scotland",
   },
   {
-    year: 2022,
+    year: 2023,
     field: "Biology",
-    old_teaching: "It was taught that the human genome was mostly complete",
+    old_teaching:
+      "It was widely believed that all processed foods are unhealthy",
     new_discovery:
-      "The full 3.1 billion base-pair reference genome was reached",
+      "Some processed foods, such as frozen vegetables, retain nutrients and can be healthy",
   },
   {
     year: 2023,
@@ -478,14 +485,6 @@ const facts = [
     old_teaching: "It was thought that fusion energy was always decades away",
     new_discovery:
       "Net energy gain from fusion was achieved in laboratory settings",
-  },
-  {
-    year: 2023,
-    field: "Biology",
-    old_teaching:
-      "It was widely believed that all processed foods are unhealthy",
-    new_discovery:
-      "Some processed foods, such as frozen vegetables, retain nutrients and can be healthy",
   },
   {
     year: 2024,
