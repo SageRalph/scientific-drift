@@ -29,6 +29,7 @@ footer {
   background-color: white;
   padding: 0.5rem;
   z-index: 1000;
+  box-shadow: 0 4px 16px rgba(3, 25, 38, 0.07);
 }
 
 header {
