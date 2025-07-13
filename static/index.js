@@ -19,9 +19,13 @@ for (const year in grouped) {
     grouped[year][field].forEach((fact) => {
       const teachingsRow = document.createElement("div");
       teachingsRow.className = "timeline-teachings-row";
+      let newDiscoveryText = fact.new_discovery;
+      if (Array.isArray(fact.sources) && fact.sources.length > 0) {
+        newDiscoveryText += ` <span class="timeline-sources">${fact.sources.map((src, i) => `<a href="${src}" target="_blank">[${i+1}]</a>`).join(" ")}</span>`;
+      }
       teachingsRow.innerHTML = `
         <div class="timeline-content left">${fact.old_teaching}</div>
-        <div class="timeline-content right">${fact.new_discovery}</div>
+        <div class="timeline-content right">${newDiscoveryText}</div>
       `;
       teachingsContainer.appendChild(teachingsRow);
     });

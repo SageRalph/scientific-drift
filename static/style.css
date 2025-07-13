@@ -128,6 +128,10 @@ footer {
   background: #f0f4fc;
 }
 
+.timeline-sources {
+  text-wrap: nowrap;
+}
+
 .timeline-content {
   width: 48%;
   padding: 20px 22px;
