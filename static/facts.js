@@ -422,7 +422,6 @@ const facts = [
     new_discovery:
       "Research showed gender identity involves complex interactions of biology, environment, and culture",
     sources: [
-    sources: [
       "https://www.britannica.com/topic/gender-identity",
       "https://en.wikipedia.org/wiki/Gender_spectrum",
       "https://en.wikipedia.org/wiki/Transgender",
@@ -621,7 +620,7 @@ const facts = [
       "Net energy gain from fusion was achieved in laboratory settings",
     sources: [
       "https://www.sciencenews.org/article/nuclear-fusion-breakthrough-energy",
-      "https://www.britannica.com/science/nuclear-fusion"
+      "https://www.britannica.com/science/nuclear-fusion",
     ],
   },
   {
