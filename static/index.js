@@ -8,13 +8,14 @@ const grouped = facts.reduce((acc, fact) => {
 }, {});
 
 for (const year in grouped) {
-  const item = document.createElement("div");
+  const item = document.createElement("article");
   item.className = "timeline-item";
   item.id = `year-${year}`;
 
   item.innerHTML += `<h2 class="timeline-year-heading">${year}</h2>`;
   for (const field in grouped[year]) {
     item.innerHTML += `<h3 class="timeline-field-heading">${field}</h3>`;
+    const teachingsContainer = document.createElement("div");
     grouped[year][field].forEach((fact) => {
       const teachingsRow = document.createElement("div");
       teachingsRow.className = "timeline-teachings-row";
@@ -22,8 +23,9 @@ for (const year in grouped) {
         <div class="timeline-content left">${fact.old_teaching}</div>
         <div class="timeline-content right">${fact.new_discovery}</div>
       `;
-      item.appendChild(teachingsRow);
+      teachingsContainer.appendChild(teachingsRow);
     });
+    item.appendChild(teachingsContainer);
   }
   timeline.appendChild(item);
 }
